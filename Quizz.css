@@ -1,0 +1,59 @@
+/* Styles pour le conteneur du quiz */
+.quiz-container {
+    max-width: 600px; /* Largeur maximale du conteneur */
+    margin: auto; /* Centrer le conteneur horizontalement */
+    padding: 20px; /* Espacement intérieur */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 10px; /* Angles arrondis */
+    text-align: center; /* Texte centré */
+    background-color: #f9f9f9; /* Couleur de fond */
+}
+
+/* Styles pour le titre */
+h1 {
+    color: #333; /* Couleur du texte */
+}
+
+/* Styles pour les questions */
+.question {
+    font-size: 1.2em; /* Taille de la police */
+    color: #007BFF; /* Couleur bleue pour les questions */
+}
+
+/* Styles pour les réponses */
+.answers {
+    list-style-type: none; /* Pas de puces pour la liste */
+    padding: 0; /* Pas de marges intérieures */
+}
+
+.answers li {
+    margin-bottom: 10px; /* Espacement entre les réponses */
+}
+
+/* Styles pour le bouton de soumission */
+button {
+    background-color: #007BFF; /* Couleur bleue pour le bouton */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Angles arrondis */
+    cursor: pointer; /* Curseur en forme de main */
+    font-size: 1em; /* Taille de la police */
+}
+
+/* Effet hover pour le bouton de soumission */
+button:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+}
+
+/* Styles pour le conteneur des résultats */
+#results {
+    margin-top: 20px; /* Espacement au-dessus des résultats */
+    font-size: 1.2em; /* Taille de la police des résultats */
+    color: #333; /* Couleur du texte */
+}
+
+/* Effet hover pour le conteneur des résultats */
+#results:hover {
+    color: #007BFF; /* Couleur bleue au survol */
+}
