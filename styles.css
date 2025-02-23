@@ -36,7 +36,7 @@ button {
     color: white; /* Couleur du texte */
     padding: 10px 20px; /* Espacement intérieur */
     border: none; /* Pas de bordure */
-    border-radius: 5px; /* Angles arrondis */
+    border-radius: 15px; /* Angles arrondis */
     cursor: pointer; /* Curseur en forme de main */
     font-size: 1em; /* Taille de la police */
 }
